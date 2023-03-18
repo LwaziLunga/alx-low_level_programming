@@ -12,26 +12,11 @@
 
 int main(void)
 {
+int a;
 
+for (a=0; a<=10; a++)
 
-char A;
-char a;
-
-A = 'A';
-a = 'a';
-
-while (a <= 'z')
-{
 putchar(a);
-a++;
-}
-
-while (A <= 'Z')
-{
-putchar(A);
-A++;
-}
-
 
 putchar('\n');
 

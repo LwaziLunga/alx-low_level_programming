@@ -14,25 +14,16 @@ int main(void)
 {
 
 
-char A;
-char a;
+char c;
 
-A = 'A';
-a = 'a';
+c = 'a';
 
-while (a <= 'z')
+while (c <= 'z')
 {
-putchar(a);
-a++;
+if ((c != 'q' && c != 'e') && c <= 'z')
+putchar(c);
+c++;
 }
-
-while (A <= 'Z')
-{
-putchar(A);
-A++;
-}
-
-
 putchar('\n');
 
 return (0);
