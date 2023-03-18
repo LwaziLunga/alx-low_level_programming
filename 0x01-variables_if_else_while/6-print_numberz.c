@@ -14,10 +14,9 @@ int main(void)
 {
 int a = 0;
 
-while (a < 10)
+for (a = 0; a <=9; a++)
 {
-putchar(a +'0');
-a++
+putchar(a);
 }
 
 
