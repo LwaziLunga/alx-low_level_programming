@@ -12,15 +12,27 @@
 
 int main(void)
 {
-char alphabets[26] = "abcdefghijklmnopqrstuvwxyz";
-char Alph[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int i;
 
-for (i = 0; i < 26; i++)
+
+char A;
+char a;
+
+A = 'A';
+a = 'a';
+
+while (a <= 'z')
 {
-putchar(alphabets[i]);
-putchar(Alph[i]);
+putchar(a);
+a++;
 }
+
+while (A <= 'Z')
+{
+putchar(A);
+A++;
+}
+
+
 putchar('\n');
 
 return (0);
