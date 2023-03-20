@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <math.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -14,7 +15,7 @@ int main(void)
 {
 int a = 0;
 
-for (a = 0; a <=9; a++)
+for (a = 0; a <= 9; a++)
 {
 putchar(a);
 }
