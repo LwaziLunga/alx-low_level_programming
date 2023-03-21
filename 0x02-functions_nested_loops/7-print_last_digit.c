@@ -12,7 +12,7 @@ int n;
 
 n = i % 20;
 
-if(n < 0)
+if (n < 0)
 {
 _putchar(-n + 48);
 return (-n);
@@ -20,7 +20,7 @@ return (-n);
 
 else
 {
-_putchar(n +48);
+_putchar(n + 48);
 return (n);
 }
 _putchar('\n');
