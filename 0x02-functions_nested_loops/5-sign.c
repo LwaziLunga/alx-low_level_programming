@@ -28,6 +28,6 @@ _putchar(45);
 return (-1);
 }
 
-_putchar('/n');
+_putchar('\n');
 
 }

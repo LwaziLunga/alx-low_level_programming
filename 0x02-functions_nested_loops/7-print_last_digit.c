@@ -23,7 +23,7 @@ else
 _putchar(n +48);
 return (n);
 }
-_putchar('/n');
+_putchar('\n');
 
 
 }
