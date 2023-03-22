@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_putchar - writes the character c to stdout
+ *main - print _putchar
  *
  *Return: On success 0.
  */
